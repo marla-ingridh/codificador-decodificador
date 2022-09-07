@@ -1,0 +1,103 @@
+
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+main{
+    padding-top: 30px;
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+}
+.entrada-texto{
+    padding-top: 60px;
+    width: 75%;
+    
+}
+.entrada-texto textarea{    
+    background-color: #E5E5E5;
+}
+
+.saida-criptografia{
+    border-radius: 10px;
+    width: 25%;
+    height: 85vh;
+    background-color: #fff;
+    padding: 20px 10px;
+}
+
+.imagem{
+    height: 100%;
+    background-image: url(imagens/boy.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+textarea{    
+    border: none;
+    width: 90%;
+    height: 61vh;
+}
+textarea::placeholder{
+    color: #0A3871;
+    font-size: 32px;
+}
+textarea:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+section button{
+    text-align: center;
+}
+
+p{
+    font-size: 12px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 24px;
+    border: solid 1px #0A3871;
+    cursor: pointer;
+    vertical-align: bottom;
+    font-size: 20px;
+    background-color: #D8DFE8;
+}
+button:hover{
+    background-color: #ADD8E6;
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btnCodificar{
+    width: 45%;
+}
+
+.criptografar{
+    background-color: #0A3871;
+    color: #fff;
+}
+
+.criptografar:hover{
+    background-color: #3f51b5;
+}
+
+.botoes{
+    display: block;
+}
+
+#mensagemCriptografada{
+    height: 74vh;
+}
+

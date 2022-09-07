@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png"   href="imagens/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="author" href="URL">
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <main>    
+        <section style="vertical-align: top;">
+            <img src="imagens/Logo.png" alt="Alura">
+        </section>    
+        <section class="entrada-texto">
+            <textarea name="" id="" class="input-texto" placeholder="Digite seu texto" ></textarea>
+            <p> <img src="imagens/Vector.png" alt=""> Apenas letras minúsculas e sem acento.</p>
+            <section class="botoes">
+                <button class="btnCodificar criptografar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btnCodificar descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+             </section>
+        </section>
+        <section class="saida-criptografia">      
+            <div class="imagem"></div>      
+            <div id="mensagemTrue">   
+                <textarea name="" id="mensagemCriptografada" cols="18" rows="8" class="mensagem "></textarea>             
+                <button id="copiarTexto" onclick="copiar()">Copiar</button>
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer></footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
